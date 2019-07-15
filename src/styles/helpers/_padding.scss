@@ -1,0 +1,35 @@
+@each $prefix in 'p', 'pt', 'pr', 'pb', 'pl', 'px', 'py' {
+	@for $i from 0 through 10 {
+		.#{$prefix}-#{$i} {
+			@if $prefix == 'p' {
+				padding: $i * 4px !important;
+			}
+
+			@else if $prefix == 'pt' {
+				padding-top: $i * 4px !important;
+			}
+
+			@else if $prefix == 'pr' {
+				padding-right: $i * 4px !important;
+			}
+
+			@else if $prefix == 'pb' {
+				padding-bottom: $i * 4px !important;
+			}
+
+			@else if $prefix == 'pl' {
+				padding-left: $i * 4px !important;
+			}
+
+			@else if $prefix == 'px' {
+				padding-right: $i * 4px !important;
+				padding-left: $i * 4px !important;
+			}
+
+			@else if $prefix == 'py' {
+				padding-top: $i * 4px !important;
+				padding-bottom: $i * 4px !important;
+			}
+		}
+	}
+}

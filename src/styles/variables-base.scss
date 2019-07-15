@@ -1,0 +1,48 @@
+// Sizes
+$--size-0: 0;
+$--size-1: 4px;
+$--size-2: 8px;
+$--size-mini: 10px;
+$--size-3: 12px;
+$--size-small: $--size-3;
+$--size-base: 14px;
+$--size-4: 16px;
+$--size-large: 18px;
+$--size-5: 20px;
+$--size-6: 24px;
+$--size-7: 28px;
+$--size-8: 32px;
+$--size-9: 36px;
+$--size-10: 40px;
+$--size-11: 44px;
+$--size-12: 48px;
+
+// /* Transition
+// -------------------------- */
+$--transition-base-duration: 300ms; // используется в js, но не как переменная, а копипастом
+$--transition-base-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+$--all-transition: all $--transition-base-duration cubic-bezier(0.645, 0.045, 0.355, 1);
+
+$--border-radius-small: 2px;
+$--border-radius-base: 4px;
+$--border-radius-circle: 100%;
+
+// /* Typography
+// -------------------------- */
+$--font-weight-thin: 100; // custom var
+$--font-weight-extra-light: 200; // custom var
+$--font-weight-light: 300; // custom var
+$--font-weight-regular: 400; // custom var
+$--font-weight-medium: 500; // custom var
+$--font-weight-semi-bold: 600; // custom var
+$--font-weight-bold: 700; // custom var
+$--font-weight-extra-bold: 800; // custom var
+$--font-weight-black: 900; // custom var
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+$--font-size-extra-large: $--size-6;
+$--font-size-large: $--size-large;
+$--font-size-medium: $--size-4;
+$--font-size-base: $--size-base;
+$--font-size-small: $--size-small;
+$--font-weight-primary: $--font-weight-regular;

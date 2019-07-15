@@ -1,0 +1,39 @@
+@each $prefix in 'm', 'mt', 'mr', 'mb', 'ml', 'mx', 'my' {
+	@for $i from 0 through 10 {
+		.#{$prefix}-#{$i} {
+			@if $prefix == 'm' {
+				margin: $i * 4px !important;
+			}
+
+			@else if $prefix == 'mt' {
+				margin-top: $i * 4px !important;
+			}
+
+			@else if $prefix == 'mr' {
+				margin-right: $i * 4px !important;
+			}
+
+			@else if $prefix == 'mb' {
+				margin-bottom: $i * 4px !important;
+			}
+
+			@else if $prefix == 'ml' {
+				margin-left: $i * 4px !important;
+			}
+
+			@else if $prefix == 'mx' {
+				margin-right: $i * 4px !important;
+				margin-left: $i * 4px !important;
+			}
+
+			@else if $prefix == 'my' {
+				margin-top: $i * 4px !important;
+				margin-bottom: $i * 4px !important;
+			}
+		}
+	}
+
+	.m-auto {
+		margin: 0 auto;
+	}
+}

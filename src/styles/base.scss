@@ -1,0 +1,105 @@
+html {
+	text-size-adjust: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1;
+	font-family: $--font-family;
+	font-size: $--font-size-base;
+	color: $--color-text-regular;
+
+	&, &.el-loading-parent--hidden {
+		overflow-y: scroll !important; // remove annoying scroll jumping
+	}
+
+	// этот класс появлятеся в модалках (dialog, messagebox)
+	// если высота экрана маленькая, то добавляется padding-right: 17px;
+	// т.к. мы используем "overflow-y: scroll !important;"
+	// то правый паддинг добавляет правый прыгающий отступ на заднем плане
+	&.el-popup-parent--hidden {
+		padding-right: unset !important;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: $--size-6;
+	margin-bottom: $--size-4;
+	color: $--color-text-primary;
+}
+
+h1, h2, h3, h4, h5, b, strong {
+	font-weight: $--font-weight-semi-bold;
+}
+
+h6 {
+	font-weight: $--font-weight-regular;
+}
+
+h1 {
+	font-size: $--font-size-extra-large;
+}
+
+h2 {
+	font-size: $--size-5;
+}
+
+h3 {
+	font-size: $--font-size-large;
+}
+
+h4 {
+	font-size: $--font-size-medium;
+}
+
+h5, h6, p {
+	font-size: $--font-size-base;
+}
+
+p {
+	line-height: 1.5;
+	margin-top: $--font-size-base;
+	margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+a {
+	color: $--link-color;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+}
+
+code {
+	color: $--color-danger;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+table {
+	border-spacing: 0;
+}
+
+td {
+	padding: 0;
+}

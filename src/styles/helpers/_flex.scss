@@ -1,0 +1,27 @@
+.flex-wrap { flex-wrap: wrap }
+.flex-grow-1 { flex-grow: 1 }
+.flex-shrink-0 { flex-shrink: 0 }
+
+@each $prop in 'center', 'start', 'flex-end', 'end', 'left', 'right', 'stretch' {
+	.justify-content-#{$prop} { justify-content: #{$prop} }
+}
+
+@each $prop in 'between', 'around', 'evenly' {
+	.justify-content-#{$prop} { justify-content: #{space-}#{$prop} }
+}
+
+@each $prop in 'center', 'baseline', 'stretch' {
+	.align-items-#{$prop} { align-items: #{$prop} }
+}
+
+@each $prop in 'start', 'end' {
+	.align-items-#{$prop} { align-items: #{flex-}#{$prop} }
+}
+
+@each $prop in 'center', 'flex-end' {
+	.align-self-#{$prop} { align-self: #{$prop} }
+}
+
+@each $prop in 'column', 'row', 'column-reverse', 'row-reverse' {
+	.flex-#{$prop} { flex-direction: #{$prop} }
+}

@@ -1,0 +1,10 @@
+$displayList:
+	'flex',
+	'inline',
+	'block',
+	'inline-block',
+	'grid';
+
+@each $prop in $displayList {
+	.d-#{$prop} { display: #{$prop} !important }
+}

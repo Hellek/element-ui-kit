@@ -1,0 +1,29 @@
+// регистр
+.upper-case { text-transform: uppercase }
+
+// цвета
+.color-white { color: $--color-white !important }
+.color-black { color: $--color-black !important }
+.color-primary { color: $--color-primary !important }
+.color-success { color: $--color-success !important }
+.color-warning { color: $--color-warning !important }
+.color-danger { color: $--color-danger !important }
+.color-info { color: $--color-info !important }
+.color-text-primary { color: $--color-text-primary !important }
+.color-regular { color: $--color-text-regular !important }
+.color-secondary { color: $--color-text-secondary !important }
+.color-placeholder { color: $--color-text-placeholder !important }
+
+// жирность
+.font-light { font-weight: $--font-weight-light } // 300
+.font-regular { font-weight: $--font-weight-regular } // 400
+.font-medium { font-weight: $--font-weight-medium } // 500
+.font-semi-bold { font-weight: $--font-weight-semi-bold } // 600
+.font-bold { font-weight: $--font-weight-bold } // 700
+.font-extra-bold { font-weight: $--font-weight-extra-bold } // 800
+
+// размер
+.font-size-large { font-size: $--font-size-large }
+.font-size-medium { font-size: $--font-size-medium }
+.font-size-small { font-size: $--font-size-small }
+.font-size-mini { font-size: $--size-mini }
