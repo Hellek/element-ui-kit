@@ -7,6 +7,8 @@
 		"url": "https://github.com/Hellek/element-ui-kit"
 	},
 	"scripts": {
+		"tool:generate-snippets-for-vue-html": "node tools/generate-snippets-for-vue-html.js",
+		"tool:generate-snippets-for-scss": "node tools/generate-snippets-for-scss.js",
 		"lint": "vue-cli-service lint",
 		"lint:style": "vue-cli-service lint:style",
 		"npm:install": "npm install",
