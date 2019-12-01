@@ -1,5 +1,5 @@
 @each $prefix in 'p', 'pt', 'pr', 'pb', 'pl', 'px', 'py' {
-	@for $i from 0 through 10 {
+	@for $i from 0 through 12 {
 		.#{$prefix}-#{$i} {
 			@if $prefix == 'p' {
 				padding: $i * 4px !important;

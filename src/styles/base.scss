@@ -8,7 +8,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
-	line-height: 1;
+	line-height: $--line-height-base;
 	font-family: $--font-family;
 	font-size: $--font-size-base;
 	color: $--color-text-regular;
@@ -103,3 +103,6 @@ table {
 td {
 	padding: 0;
 }
+
+::-webkit-scrollbar { width: 8px }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb { border-radius: $--border-radius-base }

@@ -6,3 +6,8 @@
 .bg-color-warning { background-color: $--color-warning !important }
 .bg-color-danger { background-color: $--color-danger !important }
 .bg-color-info { background-color: $--color-info !important }
+.bg-color-border-base { background-color: $--border-color-base !important }
+
+@if variable-exists(--color-secondary) {
+	.bg-color-secondary { background-color: $--color-secondary }
+}

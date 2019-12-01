@@ -1,5 +1,7 @@
-// регистр
-.upper-case { text-transform: uppercase }
+// выравнивание
+.text-left { text-align: left }
+.text-center { text-align: center }
+.text-right { text-align: right }
 
 // цвета
 .color-white { color: $--color-white !important }
@@ -11,8 +13,12 @@
 .color-info { color: $--color-info !important }
 .color-text-primary { color: $--color-text-primary !important }
 .color-regular { color: $--color-text-regular !important }
-.color-secondary { color: $--color-text-secondary !important }
+.color-text-secondary { color: $--color-text-secondary !important }
 .color-placeholder { color: $--color-text-placeholder !important }
+
+@if variable-exists(--color-secondary) {
+	.color-secondary { color: $--color-secondary !important }
+}
 
 // жирность
 .font-light { font-weight: $--font-weight-light } // 300
@@ -27,3 +33,21 @@
 .font-size-medium { font-size: $--font-size-medium }
 .font-size-small { font-size: $--font-size-small }
 .font-size-mini { font-size: $--size-mini }
+
+// высота строки
+.line-height-0 { line-height: $--line-height-0 }
+.line-height-base { line-height: $--line-height-base }
+.line-height-compact { line-height: $--line-height-compact }
+
+// перенос
+.nowrap { white-space: nowrap }
+
+// прочее
+.text-decoration-none {
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+.uppercase { text-transform: uppercase }
