@@ -1,0 +1,7 @@
+{
+	"ImportScssVariables": {
+		"prefix": "ImportScssVariables",
+		"body": "@import 'ScssVariables';\n\n",
+		"description": "@import 'ScssVariables';"
+	}
+}
