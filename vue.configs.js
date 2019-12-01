@@ -33,12 +33,13 @@ module.exports = {
 		assignAliases = {},
 	}) {
 		const aliases = {
-			Styles: path.resolve(dirname, 'src/assets/styles/'),
-			Pages: path.resolve(dirname, 'src/pages/'),
-			Components: path.resolve(dirname, 'src/components/'),
-			Plugins: path.resolve(dirname, 'src/plugins/'),
 			Images: path.resolve(dirname, 'src/assets/images/'),
+			Styles: path.resolve(dirname, 'src/assets/styles/'),
+			Components: path.resolve(dirname, 'src/components/'),
 			Mixins: path.resolve(dirname, 'src/mixins/'),
+			Pages: path.resolve(dirname, 'src/pages/'),
+			Plugins: path.resolve(dirname, 'src/plugins/'),
+			Utils: path.resolve(dirname, 'src/utils/'),
 		}
 
 		if (useLocalKit && localKitPath === '') {
@@ -50,9 +51,12 @@ module.exports = {
 
 		Object.assign(aliases, {
 			KitComponents: path.resolve(`${kitPath}src/components/`),
+			KitDirectives: path.resolve(`${kitPath}src/directives/`),
+			KitIcons: path.resolve(`${kitPath}src/icons/`),
 			KitMixins: path.resolve(`${kitPath}src/mixins/`),
 			KitPlugins: path.resolve(`${kitPath}src/plugins/`),
 			KitStyles: path.resolve(`${kitPath}src/styles/`),
+			KitUtils: path.resolve(`${kitPath}src/utils/`),
 		})
 
 		Object.keys(assignAliases).forEach(alias => {
