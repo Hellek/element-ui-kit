@@ -2,7 +2,7 @@
 const path = require('path')
 const fs = require('fs')
 // пути резолвятся относительно корня проекта, в который импортируется данный скрипт
-const kitVscodeDir = path.resolve('node_modules/frontend-kit/.vscode')
+const kitVscodeDir = path.resolve('node_modules/element-ui-kit/.vscode')
 const projectVscodeDir = path.resolve('.vscode')
 // находим только нужные файлы
 const fileList = fs.readdirSync(kitVscodeDir).filter(fileName => fileName.indexOf('.code-snippets') > -1)
