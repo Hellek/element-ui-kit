@@ -1,3 +1,28 @@
+const htmlElementContentNewlineIgnoresList = [
+	'pre',
+	'textarea',
+	'template',
+	'el-col',
+	'el-button',
+	'el-tag',
+	'el-radio',
+	'el-radio-button',
+	'el-checkbox',
+	'el-checkbox-button',
+	'router-link',
+	'a',
+	'em',
+	'i',
+	'label',
+	'small',
+	'span',
+	'strong',
+	'sub',
+	'sup',
+	'th',
+	'td',
+]
+
 module.exports = {
 	root: true,
 	env: {
@@ -28,48 +53,13 @@ module.exports = {
 		'vue/multiline-html-element-content-newline': [
 			'error',
 			{
-				ignores: [
-					'pre',
-					'textarea',
-					'el-button',
-					'el-tag',
-					'el-radio',
-					'el-radio-button',
-					'router-link',
-					'a',
-					'em',
-					'i',
-					'label',
-					'small',
-					'span',
-					'strong',
-					'sub',
-					'sup',
-				],
+				ignores: htmlElementContentNewlineIgnoresList,
 			},
 		],
 		'vue/singleline-html-element-content-newline': [
 			'error',
 			{
-				ignores: [
-					'pre',
-					'textarea',
-					'template',
-					'el-button',
-					'el-tag',
-					'el-radio',
-					'el-radio-button',
-					'router-link',
-					'a',
-					'em',
-					'i',
-					'label',
-					'small',
-					'span',
-					'strong',
-					'sub',
-					'sup',
-				],
+				ignores: htmlElementContentNewlineIgnoresList,
 			},
 		],
 		'max-len': 'off',
@@ -145,6 +135,12 @@ module.exports = {
 			'error',
 			{
 				ignoreChainWithDepth: 4,
+			},
+		],
+		'no-multiple-empty-lines': [
+			'warn',
+			{
+				max: 2,
 			},
 		],
 		'import/extensions': [
