@@ -15,6 +15,7 @@ module.exports = {
 		devServer: {
 			open: true,
 		},
+		devtool: process.env.VUE_APP_MODE === 'development' ? 'source-map' : 'nosources-source-map',
 	},
 	pluginOptions: {
 		webpackBundleAnalyzer: {
