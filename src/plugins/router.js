@@ -14,12 +14,18 @@ export default {
 	},
 	ifEmptyPathRedirectToHomePage() {
 		this.Router.beforeEach((to, from, next) => {
-			if (to.path !== '/') next()
+			if (to.path !== '/' || (to.meta && to.meta.tags && to.meta.tags.includes('homepage'))) {
+				next()
+				return
+			}
 
-			const homepageRouteIndex = this.routes.findIndex(route => route.meta.tags.includes('homepage'))
-			if (this.routes[homepageRouteIndex].path !== '/') next(this.routes[homepageRouteIndex].path)
+			const homepageRouteIndex = this.routes.findIndex(route => route.meta && route.meta.tags && route.meta.tags.includes('homepage'))
 
-			next()
+			if (homepageRouteIndex > -1) {
+				next(this.routes[homepageRouteIndex].path)
+			} else {
+				next()
+			}
 		})
 	},
 	documentTitleDefaultOrCustom() {
