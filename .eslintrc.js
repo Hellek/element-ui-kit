@@ -143,10 +143,7 @@ module.exports = {
 				max: 2,
 			},
 		],
-		'import/extensions': [
-			'warn',
-			'ignorePackages',
-		],
+		'import/extensions': 'off',
 	},
 	parserOptions: {
 		parser: 'babel-eslint',
