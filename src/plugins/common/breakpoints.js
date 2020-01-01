@@ -24,7 +24,7 @@ function defaultData() {
 }
 
 function $onResize() {
-	const width = window.outerWidth
+	const width = document.documentElement && (document.documentElement.clientWidth || window.outerWidth)
 	this.$breakpoints.xs = width >= 0
 	this.$breakpoints.xsOnly = width < breakpoints.sm
 
