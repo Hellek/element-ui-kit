@@ -1,1 +1,94 @@
-{}
+{
+	"$breakpoints": {
+		"prefix": "$breakpoints",
+		"body": "\\$breakpoints.${1|xsOnly,smOnly,smAndUp,smAndDown,mdOnly,mdAndUp,mdAndDown,lgOnly,lgAndUp,lgAndDown,xlOnly|}"
+	},
+	"$breakpoints.xsOnly": {
+		"prefix": "$breakpoints.xsOnly",
+		"body": "\\$breakpoints.xsOnly"
+	},
+	"$breakpoints.smOnly": {
+		"prefix": "$breakpoints.smOnly",
+		"body": "\\$breakpoints.smOnly"
+	},
+	"$breakpoints.smAndUp": {
+		"prefix": "$breakpoints.smAndUp",
+		"body": "\\$breakpoints.smAndUp"
+	},
+	"$breakpoints.smAndDown": {
+		"prefix": "$breakpoints.smAndDown",
+		"body": "\\$breakpoints.smAndDown"
+	},
+	"$breakpoints.mdOnly": {
+		"prefix": "$breakpoints.mdOnly",
+		"body": "\\$breakpoints.mdOnly"
+	},
+	"$breakpoints.mdAndUp": {
+		"prefix": "$breakpoints.mdAndUp",
+		"body": "\\$breakpoints.mdAndUp"
+	},
+	"$breakpoints.mdAndDown": {
+		"prefix": "$breakpoints.mdAndDown",
+		"body": "\\$breakpoints.mdAndDown"
+	},
+	"$breakpoints.lgOnly": {
+		"prefix": "$breakpoints.lgOnly",
+		"body": "\\$breakpoints.lgOnly"
+	},
+	"$breakpoints.lgAndUp": {
+		"prefix": "$breakpoints.lgAndUp",
+		"body": "\\$breakpoints.lgAndUp"
+	},
+	"$breakpoints.lgAndDown": {
+		"prefix": "$breakpoints.lgAndDown",
+		"body": "\\$breakpoints.lgAndDown"
+	},
+	"$breakpoints.xlOnly": {
+		"prefix": "$breakpoints.xlOnly",
+		"body": "\\$breakpoints.xlOnly"
+	},
+	"hidden-xs-only": {
+		"prefix": "hidden-xs-only",
+		"body": "hidden-xs-only"
+	},
+	"hidden-sm-only": {
+		"prefix": "hidden-sm-only",
+		"body": "hidden-sm-only"
+	},
+	"hidden-sm-and-down": {
+		"prefix": "hidden-sm-and-down",
+		"body": "hidden-sm-and-down"
+	},
+	"hidden-sm-and-up": {
+		"prefix": "hidden-sm-and-up",
+		"body": "hidden-sm-and-up"
+	},
+	"hidden-md-only": {
+		"prefix": "hidden-md-only",
+		"body": "hidden-md-only"
+	},
+	"hidden-md-and-down": {
+		"prefix": "hidden-md-and-down",
+		"body": "hidden-md-and-down"
+	},
+	"hidden-md-and-up": {
+		"prefix": "hidden-md-and-up",
+		"body": "hidden-md-and-up"
+	},
+	"hidden-lg-only": {
+		"prefix": "hidden-lg-only",
+		"body": "hidden-lg-only"
+	},
+	"hidden-lg-and-down": {
+		"prefix": "hidden-lg-and-down",
+		"body": "hidden-lg-and-down"
+	},
+	"hidden-lg-and-up": {
+		"prefix": "hidden-lg-and-up",
+		"body": "hidden-lg-and-up"
+	},
+	"hidden-xl-only": {
+		"prefix": "hidden-xl-only",
+		"body": "hidden-xl-only"
+	}
+}

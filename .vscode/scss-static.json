@@ -1,7 +1,244 @@
 {
 	"ImportScssVariables": {
 		"prefix": "ImportScssVariables",
-		"body": "@import 'ScssVariables';\n\n",
-		"description": "@import 'ScssVariables';"
+		"body": "@import 'ScssVariables';\n\n"
+	},
+	"$--color-primary;": {
+		"prefix": "$--color-primary;",
+		"body": "$--color-primary;"
+	},
+	"$--color-secondary;": {
+		"prefix": "$--color-secondary;",
+		"body": "$--color-secondary;"
+	},
+	"$--color-success;": {
+		"prefix": "$--color-success;",
+		"body": "$--color-success;"
+	},
+	"$--color-warning;": {
+		"prefix": "$--color-warning;",
+		"body": "$--color-warning;"
+	},
+	"$--color-danger;": {
+		"prefix": "$--color-danger;",
+		"body": "$--color-danger;"
+	},
+	"$--background-color-base;": {
+		"prefix": "$--background-color-base;",
+		"body": "$--background-color-base;"
+	},
+	"$--color-text-primary;": {
+		"prefix": "$--color-text-primary;",
+		"body": "$--color-text-primary;"
+	},
+	"$--color-text-regular;": {
+		"prefix": "$--color-text-regular;",
+		"body": "$--color-text-regular;"
+	},
+	"$--color-text-secondary;": {
+		"prefix": "$--color-text-secondary;",
+		"body": "$--color-text-secondary;"
+	},
+	"$--color-black;": {
+		"prefix": "$--color-black;",
+		"body": "$--color-black;"
+	},
+	"$--color-white;": {
+		"prefix": "$--color-white;",
+		"body": "$--color-white;"
+	},
+	"$--color-info;": {
+		"prefix": "$--color-info;",
+		"body": "$--color-info;"
+	},
+	"$--color-text-placeholder;": {
+		"prefix": "$--color-text-placeholder;",
+		"body": "$--color-text-placeholder;"
+	},
+	"$--border-color-lighter;": {
+		"prefix": "$--border-color-lighter;",
+		"body": "$--border-color-lighter;"
+	},
+	"$--border-color-light;": {
+		"prefix": "$--border-color-light;",
+		"body": "$--border-color-light;"
+	},
+	"$--border-color-extra-light;": {
+		"prefix": "$--border-color-extra-light;",
+		"body": "$--border-color-extra-light;"
+	},
+	"$--border-color-base;": {
+		"prefix": "$--border-color-base;",
+		"body": "$--border-color-base;"
+	},
+	"$--transition-base-duration;": {
+		"prefix": "$--transition-base-duration;",
+		"body": "$--transition-base-duration;"
+	},
+	"$--all-transition;": {
+		"prefix": "$--all-transition;",
+		"body": "$--all-transition;"
+	},
+	"$--border-radius-medium;": {
+		"prefix": "$--border-radius-medium;",
+		"body": "$--border-radius-medium;",
+		"description": "8px"
+	},
+	"$--border-radius-base;": {
+		"prefix": "$--border-radius-base;",
+		"body": "$--border-radius-base;",
+		"description": "4px"
+	},
+	"$--border-radius-small;": {
+		"prefix": "$--border-radius-small;",
+		"body": "$--border-radius-small;",
+		"description": "2px"
+	},
+	"$--border-radius-circle;": {
+		"prefix": "$--border-radius-circle;",
+		"body": "$--border-radius-circle;",
+		"description": "100%"
+	},
+	"$--border-radius-round;": {
+		"prefix": "$--border-radius-round;",
+		"body": "$--border-radius-round;",
+		"description": "20px"
+	},
+	"$--box-shadow-base;": {
+		"prefix": "$--box-shadow-base;",
+		"body": "$--box-shadow-base;"
+	},
+	"$--box-shadow-dark;": {
+		"prefix": "$--box-shadow-dark;",
+		"body": "$--box-shadow-dark;"
+	},
+	"$--box-shadow-light;": {
+		"prefix": "$--box-shadow-light;",
+		"body": "$--box-shadow-light;"
+	},
+	"$--font-weight-thin;": {
+		"prefix": "$--font-weight-thin;",
+		"body": "$--font-weight-thin;",
+		"description": "100"
+	},
+	"$--font-weight-extra-light;": {
+		"prefix": "$--font-weight-extra-light;",
+		"body": "$--font-weight-extra-light;",
+		"description": "200"
+	},
+	"$--font-weight-light;": {
+		"prefix": "$--font-weight-light;",
+		"body": "$--font-weight-light;",
+		"description": "300"
+	},
+	"$--font-weight-regular;": {
+		"prefix": "$--font-weight-regular;",
+		"body": "$--font-weight-regular;",
+		"description": "400"
+	},
+	"$--font-weight-medium;": {
+		"prefix": "$--font-weight-medium;",
+		"body": "$--font-weight-medium;",
+		"description": "500"
+	},
+	"$--font-weight-semi-bold;": {
+		"prefix": "$--font-weight-semi-bold;",
+		"body": "$--font-weight-semi-bold;",
+		"description": "600"
+	},
+	"$--font-weight-bold;": {
+		"prefix": "$--font-weight-bold;",
+		"body": "$--font-weight-bold;",
+		"description": "700"
+	},
+	"$--font-weight-extra-bold;": {
+		"prefix": "$--font-weight-extra-bold;",
+		"body": "$--font-weight-extra-bold;",
+		"description": "800"
+	},
+	"$--font-weight-black;": {
+		"prefix": "$--font-weight-black;",
+		"body": "$--font-weight-black;",
+		"description": "900"
+	},
+	"$--font-size-extra-large;": {
+		"prefix": "$--font-size-extra-large;",
+		"body": "$--font-size-extra-large;"
+	},
+	"$--font-size-large;": {
+		"prefix": "$--font-size-large;",
+		"body": "$--font-size-large;"
+	},
+	"$--font-size-medium;": {
+		"prefix": "$--font-size-medium;",
+		"body": "$--font-size-medium;"
+	},
+	"$--font-size-base;": {
+		"prefix": "$--font-size-base;",
+		"body": "$--font-size-base;"
+	},
+	"$--font-size-small;": {
+		"prefix": "$--font-size-small;",
+		"body": "$--font-size-small;"
+	},
+	"$--line-height-0;": {
+		"prefix": "$--line-height-0;",
+		"body": "$--line-height-0;",
+		"description": "0"
+	},
+	"$--line-height-base;": {
+		"prefix": "$--line-height-base;",
+		"body": "$--line-height-base;",
+		"description": "1"
+	},
+	"$--line-height-compact;": {
+		"prefix": "$--line-height-compact;",
+		"body": "$--line-height-compact;",
+		"description": "1.25"
+	},
+	"$--line-height-regular;": {
+		"prefix": "$--line-height-regular;",
+		"body": "$--line-height-regular;",
+		"description": "1.5"
+	},
+	"$--line-height-loose;": {
+		"prefix": "$--line-height-loose;",
+		"body": "$--line-height-loose;",
+		"description": "1.7"
+	},
+	"$--index-normal;": {
+		"prefix": "$--index-normal;",
+		"body": "$--index-normal;",
+		"description": "1"
+	},
+	"$--index-top;": {
+		"prefix": "$--index-top;",
+		"body": "$--index-top;",
+		"description": "1000"
+	},
+	"$--index-popper;": {
+		"prefix": "$--index-popper;",
+		"body": "$--index-popper;",
+		"description": "2000"
+	},
+	"$--sm;": {
+		"prefix": "$--sm;",
+		"body": "$--sm;",
+		"description": "420px"
+	},
+	"$--md;": {
+		"prefix": "$--md;",
+		"body": "$--md;",
+		"description": "768px"
+	},
+	"$--lg;": {
+		"prefix": "$--lg;",
+		"body": "$--lg;",
+		"description": "992px"
+	},
+	"$--xl;": {
+		"prefix": "$--xl;",
+		"body": "$--xl;",
+		"description": "1440px"
 	}
 }
