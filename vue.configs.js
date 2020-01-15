@@ -1,10 +1,15 @@
 const path = require('path')
-const findFreePort = require('find-free-port-sync')
 
-const analyzerPort = findFreePort({
-	start: 8000,
-	end: 9000,
-})
+let analyzerPort = null
+
+if (process.env.VUE_APP_MODE === 'development') {
+	const findFreePort = require('find-free-port-sync') // eslint-disable-line global-require
+
+	analyzerPort = findFreePort({
+		start: 8000,
+		end: 9000,
+	})
+}
 
 function addSlashInTheEndIfHasNo(str) {
 	return `${str.replace(/\/$/, '')}/`
