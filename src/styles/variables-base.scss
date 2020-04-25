@@ -26,7 +26,10 @@ $--all-transition: all $--transition-base-duration cubic-bezier(0.645, 0.045, 0.
 $--border-radius-small: 2px;
 $--border-radius-base: 4px;
 $--border-radius-medium: 8px;
+$--border-radius-round: 20px;
 $--border-radius-circle: 100%;
+
+$--box-shadow-light: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
 
 // /* Typography
 // -------------------------- */
@@ -51,3 +54,11 @@ $--font-weight-primary: $--font-weight-regular;
 $--line-height-0: 0; // custom var
 $--line-height-base: 1; // custom var
 $--line-height-compact: 1.25; // custom var
+$--line-height-regular: 1.5; // custom var
+
+/* Break-point
+-------------------------- */
+$--sm: 420px;
+$--md: 768px;
+$--lg: 992px;
+$--xl: 1440px;

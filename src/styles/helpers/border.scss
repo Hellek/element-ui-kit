@@ -2,9 +2,4 @@
 .border-radius-small { border-radius: $--border-radius-small }
 .border-radius-medium { border-radius: $--border-radius-medium }
 .border-radius-circle { border-radius: $--border-radius-circle }
-
-@if variable-exists(--border-radius-round) {
-	.border-radius-round {
-		border-radius: $--border-radius-round;
-	}
-}
+.border-radius-round { border-radius: $--border-radius-round }

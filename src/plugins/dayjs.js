@@ -3,9 +3,6 @@ import 'dayjs/locale/ru'
 
 dayjsOriginal.locale('ru')
 
-// dayjsOriginal.extend(require('dayjs/plugin/weekOfYear'))
-// dayjsOriginal.extend(require('dayjs/plugin/relativeTime'))
-
 // as js object
 export const dayjs = dayjsOriginal
 

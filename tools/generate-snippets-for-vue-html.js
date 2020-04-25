@@ -10,14 +10,14 @@ const vueHtmlStaticSnippetsFileContent = require(`${vscodeDir}/${vueHtmlStaticSn
 
 const fileList = fs.readdirSync(scssHelpersDir).filter(fileName => {
 	switch (fileName) {
-	case '_index.scss':
-	case 'indentation.scss':
-	case 'margin.scss':
-	case 'padding.scss':
-	case 'uncategorized.scss':
-		return false
-	default:
-		break;
+		case '_index.scss':
+		case 'indentation.scss':
+		case 'margin.scss':
+		case 'padding.scss':
+		case 'uncategorized.scss':
+			return false
+		default:
+			break;
 	}
 
 	return fileName.indexOf('.scss') > -1
@@ -53,6 +53,7 @@ fileList.forEach(fileFullName => {
 				prefix: ruleArr[1],
 				body: ruleArr[1],
 				description: ruleArr[2].trim(),
+				scope: 'vue-html',
 			}
 		})
 	}

@@ -28,6 +28,9 @@
 .font-bold { font-weight: $--font-weight-bold } // 700
 .font-extra-bold { font-weight: $--font-weight-extra-bold } // 800
 
+// Начертание
+.italic { font-style: italic }
+
 // размер
 .font-size-large { font-size: $--font-size-large }
 .font-size-medium { font-size: $--font-size-medium }

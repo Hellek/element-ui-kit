@@ -1,244 +1,298 @@
 {
 	"ImportScssVariables": {
 		"prefix": "ImportScssVariables",
-		"body": "@import 'ScssVariables';\n\n"
+		"body": "@import 'ScssVariables';\n\n",
+		"scope": "scss"
 	},
 	"$--color-primary;": {
 		"prefix": "$--color-primary;",
-		"body": "$--color-primary;"
+		"body": "$--color-primary;",
+		"scope": "scss"
 	},
 	"$--color-secondary;": {
 		"prefix": "$--color-secondary;",
-		"body": "$--color-secondary;"
+		"body": "$--color-secondary;",
+		"scope": "scss"
 	},
 	"$--color-success;": {
 		"prefix": "$--color-success;",
-		"body": "$--color-success;"
+		"body": "$--color-success;",
+		"scope": "scss"
 	},
 	"$--color-warning;": {
 		"prefix": "$--color-warning;",
-		"body": "$--color-warning;"
+		"body": "$--color-warning;",
+		"scope": "scss"
 	},
 	"$--color-danger;": {
 		"prefix": "$--color-danger;",
-		"body": "$--color-danger;"
+		"body": "$--color-danger;",
+		"scope": "scss"
 	},
 	"$--background-color-base;": {
 		"prefix": "$--background-color-base;",
-		"body": "$--background-color-base;"
+		"body": "$--background-color-base;",
+		"scope": "scss"
 	},
 	"$--color-text-primary;": {
 		"prefix": "$--color-text-primary;",
-		"body": "$--color-text-primary;"
+		"body": "$--color-text-primary;",
+		"scope": "scss"
 	},
 	"$--color-text-regular;": {
 		"prefix": "$--color-text-regular;",
-		"body": "$--color-text-regular;"
+		"body": "$--color-text-regular;",
+		"scope": "scss"
 	},
 	"$--color-text-secondary;": {
 		"prefix": "$--color-text-secondary;",
-		"body": "$--color-text-secondary;"
+		"body": "$--color-text-secondary;",
+		"scope": "scss"
 	},
 	"$--color-black;": {
 		"prefix": "$--color-black;",
-		"body": "$--color-black;"
+		"body": "$--color-black;",
+		"scope": "scss"
 	},
 	"$--color-white;": {
 		"prefix": "$--color-white;",
-		"body": "$--color-white;"
+		"body": "$--color-white;",
+		"scope": "scss"
 	},
 	"$--color-info;": {
 		"prefix": "$--color-info;",
-		"body": "$--color-info;"
+		"body": "$--color-info;",
+		"scope": "scss"
 	},
 	"$--color-text-placeholder;": {
 		"prefix": "$--color-text-placeholder;",
-		"body": "$--color-text-placeholder;"
+		"body": "$--color-text-placeholder;",
+		"scope": "scss"
 	},
 	"$--border-color-lighter;": {
 		"prefix": "$--border-color-lighter;",
-		"body": "$--border-color-lighter;"
+		"body": "$--border-color-lighter;",
+		"scope": "scss"
 	},
 	"$--border-color-light;": {
 		"prefix": "$--border-color-light;",
-		"body": "$--border-color-light;"
+		"body": "$--border-color-light;",
+		"scope": "scss"
 	},
 	"$--border-color-extra-light;": {
 		"prefix": "$--border-color-extra-light;",
-		"body": "$--border-color-extra-light;"
+		"body": "$--border-color-extra-light;",
+		"scope": "scss"
 	},
 	"$--border-color-base;": {
 		"prefix": "$--border-color-base;",
-		"body": "$--border-color-base;"
+		"body": "$--border-color-base;",
+		"scope": "scss"
 	},
 	"$--transition-base-duration;": {
 		"prefix": "$--transition-base-duration;",
-		"body": "$--transition-base-duration;"
+		"body": "$--transition-base-duration;",
+		"scope": "scss"
 	},
 	"$--all-transition;": {
 		"prefix": "$--all-transition;",
-		"body": "$--all-transition;"
+		"body": "$--all-transition;",
+		"scope": "scss"
 	},
 	"$--border-radius-medium;": {
 		"prefix": "$--border-radius-medium;",
 		"body": "$--border-radius-medium;",
-		"description": "8px"
+		"description": "8px",
+		"scope": "scss"
 	},
 	"$--border-radius-base;": {
 		"prefix": "$--border-radius-base;",
 		"body": "$--border-radius-base;",
-		"description": "4px"
+		"description": "4px",
+		"scope": "scss"
 	},
 	"$--border-radius-small;": {
 		"prefix": "$--border-radius-small;",
 		"body": "$--border-radius-small;",
-		"description": "2px"
+		"description": "2px",
+		"scope": "scss"
 	},
 	"$--border-radius-circle;": {
 		"prefix": "$--border-radius-circle;",
 		"body": "$--border-radius-circle;",
-		"description": "100%"
+		"description": "100%",
+		"scope": "scss"
 	},
 	"$--border-radius-round;": {
 		"prefix": "$--border-radius-round;",
 		"body": "$--border-radius-round;",
-		"description": "20px"
+		"description": "20px",
+		"scope": "scss"
 	},
 	"$--box-shadow-base;": {
 		"prefix": "$--box-shadow-base;",
-		"body": "$--box-shadow-base;"
+		"body": "$--box-shadow-base;",
+		"scope": "scss"
 	},
 	"$--box-shadow-dark;": {
 		"prefix": "$--box-shadow-dark;",
-		"body": "$--box-shadow-dark;"
+		"body": "$--box-shadow-dark;",
+		"scope": "scss"
 	},
 	"$--box-shadow-light;": {
 		"prefix": "$--box-shadow-light;",
-		"body": "$--box-shadow-light;"
+		"body": "$--box-shadow-light;",
+		"scope": "scss"
 	},
 	"$--font-weight-thin;": {
 		"prefix": "$--font-weight-thin;",
 		"body": "$--font-weight-thin;",
-		"description": "100"
+		"description": "100",
+		"scope": "scss"
 	},
 	"$--font-weight-extra-light;": {
 		"prefix": "$--font-weight-extra-light;",
 		"body": "$--font-weight-extra-light;",
-		"description": "200"
+		"description": "200",
+		"scope": "scss"
 	},
 	"$--font-weight-light;": {
 		"prefix": "$--font-weight-light;",
 		"body": "$--font-weight-light;",
-		"description": "300"
+		"description": "300",
+		"scope": "scss"
 	},
 	"$--font-weight-regular;": {
 		"prefix": "$--font-weight-regular;",
 		"body": "$--font-weight-regular;",
-		"description": "400"
+		"description": "400",
+		"scope": "scss"
 	},
 	"$--font-weight-medium;": {
 		"prefix": "$--font-weight-medium;",
 		"body": "$--font-weight-medium;",
-		"description": "500"
+		"description": "500",
+		"scope": "scss"
 	},
 	"$--font-weight-semi-bold;": {
 		"prefix": "$--font-weight-semi-bold;",
 		"body": "$--font-weight-semi-bold;",
-		"description": "600"
+		"description": "600",
+		"scope": "scss"
 	},
 	"$--font-weight-bold;": {
 		"prefix": "$--font-weight-bold;",
 		"body": "$--font-weight-bold;",
-		"description": "700"
+		"description": "700",
+		"scope": "scss"
 	},
 	"$--font-weight-extra-bold;": {
 		"prefix": "$--font-weight-extra-bold;",
 		"body": "$--font-weight-extra-bold;",
-		"description": "800"
+		"description": "800",
+		"scope": "scss"
 	},
 	"$--font-weight-black;": {
 		"prefix": "$--font-weight-black;",
 		"body": "$--font-weight-black;",
-		"description": "900"
+		"description": "900",
+		"scope": "scss"
 	},
 	"$--font-size-extra-large;": {
 		"prefix": "$--font-size-extra-large;",
-		"body": "$--font-size-extra-large;"
+		"body": "$--font-size-extra-large;",
+		"scope": "scss"
 	},
 	"$--font-size-large;": {
 		"prefix": "$--font-size-large;",
-		"body": "$--font-size-large;"
+		"body": "$--font-size-large;",
+		"scope": "scss"
 	},
 	"$--font-size-medium;": {
 		"prefix": "$--font-size-medium;",
-		"body": "$--font-size-medium;"
+		"body": "$--font-size-medium;",
+		"scope": "scss"
 	},
 	"$--font-size-base;": {
 		"prefix": "$--font-size-base;",
-		"body": "$--font-size-base;"
+		"body": "$--font-size-base;",
+		"scope": "scss"
 	},
 	"$--font-size-small;": {
 		"prefix": "$--font-size-small;",
-		"body": "$--font-size-small;"
+		"body": "$--font-size-small;",
+		"scope": "scss"
 	},
 	"$--line-height-0;": {
 		"prefix": "$--line-height-0;",
 		"body": "$--line-height-0;",
-		"description": "0"
+		"description": "0",
+		"scope": "scss"
 	},
 	"$--line-height-base;": {
 		"prefix": "$--line-height-base;",
 		"body": "$--line-height-base;",
-		"description": "1"
+		"description": "1",
+		"scope": "scss"
 	},
 	"$--line-height-compact;": {
 		"prefix": "$--line-height-compact;",
 		"body": "$--line-height-compact;",
-		"description": "1.25"
+		"description": "1.25",
+		"scope": "scss"
 	},
 	"$--line-height-regular;": {
 		"prefix": "$--line-height-regular;",
 		"body": "$--line-height-regular;",
-		"description": "1.5"
+		"description": "1.5",
+		"scope": "scss"
 	},
 	"$--line-height-loose;": {
 		"prefix": "$--line-height-loose;",
 		"body": "$--line-height-loose;",
-		"description": "1.7"
+		"description": "1.7",
+		"scope": "scss"
 	},
 	"$--index-normal;": {
 		"prefix": "$--index-normal;",
 		"body": "$--index-normal;",
-		"description": "1"
+		"description": "1",
+		"scope": "scss"
 	},
 	"$--index-top;": {
 		"prefix": "$--index-top;",
 		"body": "$--index-top;",
-		"description": "1000"
+		"description": "1000",
+		"scope": "scss"
 	},
 	"$--index-popper;": {
 		"prefix": "$--index-popper;",
 		"body": "$--index-popper;",
-		"description": "2000"
+		"description": "2000",
+		"scope": "scss"
 	},
 	"$--sm;": {
 		"prefix": "$--sm;",
 		"body": "$--sm;",
-		"description": "420px"
+		"description": "420px",
+		"scope": "scss"
 	},
 	"$--md;": {
 		"prefix": "$--md;",
 		"body": "$--md;",
-		"description": "768px"
+		"description": "768px",
+		"scope": "scss"
 	},
 	"$--lg;": {
 		"prefix": "$--lg;",
 		"body": "$--lg;",
-		"description": "992px"
+		"description": "992px",
+		"scope": "scss"
 	},
 	"$--xl;": {
 		"prefix": "$--xl;",
 		"body": "$--xl;",
-		"description": "1440px"
+		"description": "1440px",
+		"scope": "scss"
 	}
 }

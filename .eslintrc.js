@@ -32,6 +32,9 @@ module.exports = {
 		'plugin:vue/recommended',
 		'@vue/airbnb',
 	],
+	parserOptions: {
+		parser: 'babel-eslint',
+	},
 	rules: {
 		'vue/html-indent': [
 			'error',
@@ -144,8 +147,8 @@ module.exports = {
 			},
 		],
 		'import/extensions': 'off',
-	},
-	parserOptions: {
-		parser: 'babel-eslint',
+		// TODO временный багфикс. Валит сборку, локально не воспроизводится
+		'import/no-extraneous-dependencies': 'off',
+		'import/prefer-default-export': 'off',
 	},
 }

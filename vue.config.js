@@ -2,7 +2,9 @@ const path = require('path')
 const KitVueConfigs = require('./vue.configs')
 
 module.exports = {
+	...KitVueConfigs.vueConfig,
 	configureWebpack: {
+		...KitVueConfigs.vueConfig.configureWebpack,
 		resolve: {
 			alias: {
 				KitComponents: path.resolve(__dirname, 'src/components/'),
@@ -14,5 +16,7 @@ module.exports = {
 			},
 		},
 	},
-	pluginOptions: KitVueConfigs.pluginOptions,
+	chainWebpack: config => {
+		KitVueConfigs.rawLoader(config)
+	},
 }
