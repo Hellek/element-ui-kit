@@ -32,7 +32,7 @@ export default {
 	ifEmptyPathRedirectToHomePage() {
 		this.Router.beforeEach((to, from, next) => {
 			if (to.path === '/') {
-				if (this.homepagePath) {
+				if (this.homepagePath && this.homepagePath !== '/') {
 					next(this.homepagePath)
 				} else {
 					next()
