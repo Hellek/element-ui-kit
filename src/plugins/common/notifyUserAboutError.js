@@ -1,14 +1,19 @@
-function $notifyUserAboutError(anyTypeError) {
-	if (typeof anyTypeError === 'string') {
-		this.$notify.error({
-			title: 'Ошибка',
-			message: anyTypeError,
-		})
+async function $notifyUserAboutError(error) {
+	const title = 'Ошибка'
 
+	if (typeof error === 'string') {
+		this.$notify.error({ title, message: error })
 		return
 	}
 
-	const { response } = anyTypeError
+	if (error.disableUserNotice) return
+
+	if (!error.response) {
+		this.$notify.error({ title, message: error.message })
+		return
+	}
+
+	const { response } = error
 
 	this.$notify.error({
 		title: response.statusText,
