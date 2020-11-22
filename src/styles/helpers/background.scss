@@ -7,6 +7,10 @@
 .bg-color-danger { background-color: $--color-danger !important }
 .bg-color-info { background-color: $--color-info !important }
 .bg-color-border-base { background-color: $--border-color-base !important }
+.bg-color-border-light { background-color: $--border-color-light !important }
+.bg-color-border-extra-light { background-color: $--border-color-extra-light !important }
+.bg-color-text-placeholder { background-color: $--color-text-placeholder !important }
+.bg-color-text-secondary { background-color: $--color-text-secondary !important }
 
 @if variable-exists(--color-secondary) {
 	.bg-color-secondary { background-color: $--color-secondary }

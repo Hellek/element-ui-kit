@@ -3,3 +3,14 @@
 .border-radius-medium { border-radius: $--border-radius-medium }
 .border-radius-circle { border-radius: $--border-radius-circle }
 .border-radius-round { border-radius: $--border-radius-round }
+
+.border-radius-2 { border-radius: 2px }
+.border-radius-4 { border-radius: 4px }
+.border-radius-8 { border-radius: 8px }
+.border-radius-12 { border-radius: 12px }
+.border-radius-20 { border-radius: 20px }
+.border-radius-32 { border-radius: 32px }
+.border-radius-80 { border-radius: 80px }
+
+.border-none { border: none !important }
+.border-base { border: $--border-base }

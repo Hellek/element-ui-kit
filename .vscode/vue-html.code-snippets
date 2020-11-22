@@ -218,6 +218,30 @@
 		"description": "background-color: $--border-color-base !important",
 		"scope": "vue-html"
 	},
+	"bg-color-border-light": {
+		"prefix": "bg-color-border-light",
+		"body": "bg-color-border-light",
+		"description": "background-color: $--border-color-light !important",
+		"scope": "vue-html"
+	},
+	"bg-color-border-extra-light": {
+		"prefix": "bg-color-border-extra-light",
+		"body": "bg-color-border-extra-light",
+		"description": "background-color: $--border-color-extra-light !important",
+		"scope": "vue-html"
+	},
+	"bg-color-text-placeholder": {
+		"prefix": "bg-color-text-placeholder",
+		"body": "bg-color-text-placeholder",
+		"description": "background-color: $--color-text-placeholder !important",
+		"scope": "vue-html"
+	},
+	"bg-color-text-secondary": {
+		"prefix": "bg-color-text-secondary",
+		"body": "bg-color-text-secondary",
+		"description": "background-color: $--color-text-secondary !important",
+		"scope": "vue-html"
+	},
 	"bg-color-secondary": {
 		"prefix": "bg-color-secondary",
 		"body": "bg-color-secondary",
@@ -252,6 +276,60 @@
 		"prefix": "border-radius-round",
 		"body": "border-radius-round",
 		"description": "border-radius: $--border-radius-round",
+		"scope": "vue-html"
+	},
+	"border-radius-2": {
+		"prefix": "border-radius-2",
+		"body": "border-radius-2",
+		"description": "border-radius: 2px",
+		"scope": "vue-html"
+	},
+	"border-radius-4": {
+		"prefix": "border-radius-4",
+		"body": "border-radius-4",
+		"description": "border-radius: 4px",
+		"scope": "vue-html"
+	},
+	"border-radius-8": {
+		"prefix": "border-radius-8",
+		"body": "border-radius-8",
+		"description": "border-radius: 8px",
+		"scope": "vue-html"
+	},
+	"border-radius-12": {
+		"prefix": "border-radius-12",
+		"body": "border-radius-12",
+		"description": "border-radius: 12px",
+		"scope": "vue-html"
+	},
+	"border-radius-20": {
+		"prefix": "border-radius-20",
+		"body": "border-radius-20",
+		"description": "border-radius: 20px",
+		"scope": "vue-html"
+	},
+	"border-radius-32": {
+		"prefix": "border-radius-32",
+		"body": "border-radius-32",
+		"description": "border-radius: 32px",
+		"scope": "vue-html"
+	},
+	"border-radius-80": {
+		"prefix": "border-radius-80",
+		"body": "border-radius-80",
+		"description": "border-radius: 80px",
+		"scope": "vue-html"
+	},
+	"border-none": {
+		"prefix": "border-none",
+		"body": "border-none",
+		"description": "border: none !important",
+		"scope": "vue-html"
+	},
+	"border-base": {
+		"prefix": "border-base",
+		"body": "border-base",
+		"description": "border: $--border-base",
 		"scope": "vue-html"
 	},
 	"d-block": {
@@ -326,6 +404,12 @@
 		"description": "justify-content: space-between",
 		"scope": "vue-html"
 	},
+	"justify-content-around": {
+		"prefix": "justify-content-around",
+		"body": "justify-content-around",
+		"description": "justify-content: space-around",
+		"scope": "vue-html"
+	},
 	"align-items-center": {
 		"prefix": "align-items-center",
 		"body": "align-items-center",
@@ -356,6 +440,12 @@
 		"description": "align-self: center",
 		"scope": "vue-html"
 	},
+	"align-self-flex-start": {
+		"prefix": "align-self-flex-start",
+		"body": "align-self-flex-start",
+		"description": "align-self: flex-start",
+		"scope": "vue-html"
+	},
 	"align-self-flex-end": {
 		"prefix": "align-self-flex-end",
 		"body": "align-self-flex-end",
@@ -366,6 +456,18 @@
 		"prefix": "flex-column",
 		"body": "flex-column",
 		"description": "flex-direction: column",
+		"scope": "vue-html"
+	},
+	"flex-column-reverse": {
+		"prefix": "flex-column-reverse",
+		"body": "flex-column-reverse",
+		"description": "flex-direction: column-reverse",
+		"scope": "vue-html"
+	},
+	"flex-row-reverse": {
+		"prefix": "flex-row-reverse",
+		"body": "flex-row-reverse",
+		"description": "flex-direction: row-reverse",
 		"scope": "vue-html"
 	},
 	"overflow-auto": {
@@ -518,6 +620,12 @@
 		"description": "color: $--color-text-placeholder !important",
 		"scope": "vue-html"
 	},
+	"color-border-extra-light": {
+		"prefix": "color-border-extra-light",
+		"body": "color-border-extra-light",
+		"description": "color: $--border-color-extra-light !important",
+		"scope": "vue-html"
+	},
 	"color-secondary": {
 		"prefix": "color-secondary",
 		"body": "color-secondary",
@@ -558,6 +666,54 @@
 		"prefix": "font-extra-bold",
 		"body": "font-extra-bold",
 		"description": "font-weight: $--font-weight-extra-bold",
+		"scope": "vue-html"
+	},
+	"font-size-48": {
+		"prefix": "font-size-48",
+		"body": "font-size-48",
+		"description": "font-size: 48px",
+		"scope": "vue-html"
+	},
+	"font-size-36": {
+		"prefix": "font-size-36",
+		"body": "font-size-36",
+		"description": "font-size: 36px",
+		"scope": "vue-html"
+	},
+	"font-size-32": {
+		"prefix": "font-size-32",
+		"body": "font-size-32",
+		"description": "font-size: 32px",
+		"scope": "vue-html"
+	},
+	"font-size-24": {
+		"prefix": "font-size-24",
+		"body": "font-size-24",
+		"description": "font-size: 24px",
+		"scope": "vue-html"
+	},
+	"font-size-20": {
+		"prefix": "font-size-20",
+		"body": "font-size-20",
+		"description": "font-size: 20px",
+		"scope": "vue-html"
+	},
+	"font-size-18": {
+		"prefix": "font-size-18",
+		"body": "font-size-18",
+		"description": "font-size: 18px",
+		"scope": "vue-html"
+	},
+	"font-size-16": {
+		"prefix": "font-size-16",
+		"body": "font-size-16",
+		"description": "font-size: 16px",
+		"scope": "vue-html"
+	},
+	"font-size-12": {
+		"prefix": "font-size-12",
+		"body": "font-size-12",
+		"description": "font-size: 12px",
 		"scope": "vue-html"
 	},
 	"italic": {
@@ -608,6 +764,18 @@
 		"description": "line-height: $--line-height-compact",
 		"scope": "vue-html"
 	},
+	"line-height-regular": {
+		"prefix": "line-height-regular",
+		"body": "line-height-regular",
+		"description": "line-height: $--line-height-regular",
+		"scope": "vue-html"
+	},
+	"line-height-loose": {
+		"prefix": "line-height-loose",
+		"body": "line-height-loose",
+		"description": "line-height: $--line-height-loose",
+		"scope": "vue-html"
+	},
 	"nowrap": {
 		"prefix": "nowrap",
 		"body": "nowrap",
@@ -618,6 +786,12 @@
 		"prefix": "uppercase",
 		"body": "uppercase",
 		"description": "text-transform: uppercase",
+		"scope": "vue-html"
+	},
+	"capitalize": {
+		"prefix": "capitalize",
+		"body": "capitalize",
+		"description": "text-transform: capitalize",
 		"scope": "vue-html"
 	}
 }

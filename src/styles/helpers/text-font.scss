@@ -15,6 +15,7 @@
 .color-regular { color: $--color-text-regular !important }
 .color-text-secondary { color: $--color-text-secondary !important }
 .color-placeholder { color: $--color-text-placeholder !important }
+.color-border-extra-light { color: $--border-color-extra-light !important }
 
 @if variable-exists(--color-secondary) {
 	.color-secondary { color: $--color-secondary !important }
@@ -27,6 +28,15 @@
 .font-semi-bold { font-weight: $--font-weight-semi-bold } // 600
 .font-bold { font-weight: $--font-weight-bold } // 700
 .font-extra-bold { font-weight: $--font-weight-extra-bold } // 800
+
+.font-size-48 { font-size: 48px }
+.font-size-36 { font-size: 36px }
+.font-size-32 { font-size: 32px }
+.font-size-24 { font-size: 24px }
+.font-size-20 { font-size: 20px }
+.font-size-18 { font-size: 18px }
+.font-size-16 { font-size: 16px }
+.font-size-12 { font-size: 12px }
 
 // Начертание
 .italic { font-style: italic }
@@ -41,6 +51,8 @@
 .line-height-0 { line-height: $--line-height-0 }
 .line-height-base { line-height: $--line-height-base }
 .line-height-compact { line-height: $--line-height-compact }
+.line-height-regular { line-height: $--line-height-regular }
+.line-height-loose { line-height: $--line-height-loose }
 
 // перенос
 .nowrap { white-space: nowrap }
@@ -54,3 +66,4 @@
 }
 
 .uppercase { text-transform: uppercase }
+.capitalize { text-transform: capitalize }
