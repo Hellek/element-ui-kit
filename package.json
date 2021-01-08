@@ -14,10 +14,10 @@
 		"npm:install": "npm install"
 	},
 	"dependencies": {
-		"axios": "0.19.0",
+		"axios": "0.21.1",
 		"core-js": "3.6.4",
-		"dayjs": "1.8.21",
-		"element-ui": "2.13.1",
+		"dayjs": "1.10.2",
+		"element-ui": "2.14.1",
 		"find-free-port-sync": "1.0.0",
 		"vue": "2.6.11",
 		"vue-yandex-metrika": "1.8.3",
